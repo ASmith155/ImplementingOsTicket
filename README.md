@@ -53,19 +53,19 @@ After connecting to your VM you will have to enable IIS(Internet Information Ser
 <br />
 </p>
 <p>
-Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-  That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
+Now that I have enabled IIS I need to install Web Platform Installer. This is the link that i used here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+  That link provided me with all of the material I needed to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
 </p>
 <img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Once you have installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
+After I installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
 </p>
 <img src="https://i.imgur.com/JJ8bZeJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
 <p>
-Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
+I then downloaded osTicket. Then extraced and copied the "upload" folder into c:\inetpub\wwwroot. Afterwards I renamed the folder to osTicket
 </P>
 <img src="https://i.imgur.com/TUGiSKi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -73,14 +73,14 @@ Next download osTicket. Then extract and copy the "upload" folder into c:\inetpu
 <p>
 </p>
 <p>
-Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
+I then opened IIS Manager and restarted the server. Once inside IIS manager i went to Sites->Default->osTicket on the right, click "Browse*.80" from there the default browser should open osTicket webserver.
 </p>
 <img src="https://i.imgur.com/4AkTkV0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
-Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket
+I went back into IIS manager and enabled some extensions. To do this i went to Sites->Default->osTicket
 Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
 </p>
 <img src="https://i.imgur.com/APZgUTT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -88,8 +88,8 @@ Then double click on PHP manager. Click on "Disable or enable an extension" Enab
 <p>
 </p>
 <p>
-Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php
-Assign permissions to ost-config.php Disable inheritance->Removeall
+I went back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php
+Assigned permissions to ost-config.php Disable inheritance->Removeall
 New Permissions->Everyone->all
 </p>
 <img src="https://i.imgur.com/1nYaYGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
