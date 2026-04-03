@@ -30,7 +30,7 @@ This Lab outlines the prerequisites and installation of the open-source help des
 <p>
 </p>
 <p>
-Welcome to another in-depth IT Lab! To begin, I created a Virtual machine using the Microsoft Azure portal. I used a VM(virtual machine) which is a remote computer.I am using a VM to protect my physical machine, just in case something malfunctions. I created a resource group and titled it "osTicket". Afterwards, I created a VM with 2-4 CPUs. In this example, I will be using 4 CPUs.
+To begin, I created a Virtual machine using the Microsoft Azure portal. I used a VM(virtual machine) which is a remote computer.I am using a VM to protect my physical machine, just in case something malfunctions. I created a resource group and titled it "osTicket". Afterwards, I created a VM with 2-4 CPUs. In this example, I will be using 4 CPUs.
   
  <img src="https://i.imgur.com/nok9lMH.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
